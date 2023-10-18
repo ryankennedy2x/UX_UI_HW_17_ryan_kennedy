@@ -1,0 +1,84 @@
+/* Reset default margin, padding, and styling */
+body, ul, li, p, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
+}
+
+/* Style the header containing the logo and navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E3E3E1;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 200px; /* Adjust the height as needed */
+}
+
+/* Style the navigation bar */
+.nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li, footer li {
+    margin: 0 20px;
+    font-size: 18px; /* Adjust font size */
+}
+
+/* Add margin to the navigation to avoid overlapping with the hero image */
+.nav {
+    margin-top: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Style the hero image section */
+.heroImg {
+    background: url("./Images/IMG_0570.png") no-repeat center center fixed;
+    background-size: cover;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.heroImg .content {
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the about me section */
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Add background color */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 18px; /* Adjust font size */
+}
+
+/* Style the footer */
+footer {
+    background-color: #E3E3E1; /* Adjust background color */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
